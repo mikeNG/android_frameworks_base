@@ -309,11 +309,11 @@ android_library {
         "dagger2",
         "jsr330",
         "WindowManager-Shell",
-<<<<<<< HEAD
         "LowLightDreamLib",
         "motion_tool_lib",
         "androidx.core_core-animation-testing-nodeps",
         "androidx.compose.ui_ui",
+        "vendor.lineage.powershare-V1.0-java",
     ],
 }
 
@@ -338,9 +338,6 @@ android_library {
         "androidx.test.uiautomator",
         "mockito-target-extended-minus-junit4",
         "androidx.test.ext.junit",
-=======
-        "vendor.lineage.powershare-V1.0-java",
->>>>>>> 6284dd836515 (SystemUI: Add powershare QS tile)
     ],
     libs: [
         "android.test.runner",
