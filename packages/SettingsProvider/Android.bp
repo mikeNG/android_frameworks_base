@@ -33,8 +33,8 @@ android_app {
     static_libs: [
         "junit",
         "SettingsLibDeviceStateRotationLock",
-        "SettingsLibDisplayDensityUtils",
         "org.lineageos.platform.internal",
+        "SettingsLibDisplayDensityUtils",
     ],
     optimize: {
         proguard_flags_files: ["proguard.flags"],

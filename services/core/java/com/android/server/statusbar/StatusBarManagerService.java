@@ -2244,7 +2244,6 @@ public class StatusBarManagerService extends IStatusBarService.Stub implements D
             try {
                 mBar.startAssist(args);
             } catch (RemoteException ex) {
-                Slog.e(TAG, "startAssist", e);
             }
         }
     }
