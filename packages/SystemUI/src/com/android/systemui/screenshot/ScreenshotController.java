@@ -981,6 +981,7 @@ public class ScreenshotController {
         } catch (RemoteException e) {
             Log.e(TAG, "Error during collapsing panels", e);
         }
+
     }
 
     private void startPartialScreenshotActivity(UserHandle owner) {
